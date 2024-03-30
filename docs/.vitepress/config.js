@@ -94,5 +94,6 @@ export default {
       },
       socialLinks: [{ icon: "github", link: "https://github.com/Huangbinghui" }], // 可以连接到 github
   },
+  ignoreDeadLinks:true,
 }
 
