@@ -269,7 +269,7 @@ public class UserServiceTest {
 
 通过配置文件发现，对于Mybatis配置文件的解析，Spring应该是通过`SqlSessionFactoryBean`实现的。这个类型的继承结构如下：
 
-<img src="/Users/huangbinghui/Documents/LearnDoc/Java/Spring/assets/image-20240206101309512.png" alt="image-20240206101309512" style="zoom:50%;" />
+<img src="../../../public/images/image-20240206101309512.png" alt="image-20240206101309512" style="zoom:50%;" />
 
 从中找出重要的两个接口实现：`FactoryBean`和`InitializingBean`
 
@@ -442,7 +442,7 @@ public SqlSessionFactory getObject() throws Exception {
 
 下面是MapperFactoryBean的继承结构：
 
-<img src="/Users/huangbinghui/Documents/LearnDoc/Java/Spring/assets/image-20240206110055308.png" alt="image-20240206110055308" style="zoom:50%;" />
+<img src="../../../public/images/image-20240206110055308.png" alt="image-20240206110055308" style="zoom:50%;" />
 
 `FactoryBean`和`InitializingBean`依然是我们要关注的接口实现：
 
@@ -525,7 +525,7 @@ MapperScannerConfigurer可以扫描指定的包，自动帮我们创建映射器
 
 `MapperScannerConfigurer`继承结构如下：
 
-<img src="/Users/huangbinghui/Documents/LearnDoc/Java/Spring/assets/image-20240206112559633.png" alt="image-20240206112559633" style="zoom:50%;" />
+<img src="../../../public/images/image-20240206112559633.png" alt="image-20240206112559633" style="zoom:50%;" />
 
 这个类也实现了`InitializingBean`接口，这个方法只对basePackage做了校验。
 

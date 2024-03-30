@@ -194,15 +194,15 @@ Redis判断库存，是否重复购买。成功后push到MQ。MQ异步消费队�
 
 ## 拉模式/读扩散实现方案
 
-![image-20221122165208662](/Users/huangbinghui/Documents/MD笔记/Java/redis/Redis实战.assets/image-20221122165208662.png)
+![image-20221122165208662](../../../public/images/image-20221122165208662.png)
 
 ## 推模式/写扩散
 
-![image-20221122165341957](/Users/huangbinghui/Documents/MD笔记/Java/redis/Redis实战.assets/image-20221122165341957.png)
+![image-20221122165341957](../../../public/images/image-20221122165341957.png)
 
 ## 推拉结合模式/读写混合
 
-![image-20221122165526261](/Users/huangbinghui/Documents/MD笔记/Java/redis/Redis实战.assets/image-20221122165526261.png)
+![image-20221122165526261](../../../public/images/image-20221122165526261.png)
 
 ## 分页问题
 
