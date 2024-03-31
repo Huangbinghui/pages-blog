@@ -24,7 +24,7 @@ export default {
           text: "计算机基础",
           collapsed: true,
           items: [
-            { text: "pg", link: "/articles/CS/pg" },
+            { text: "pg", link: "/articles/CS/pg/存储管理" },
             { text: "vim", link: "/articles/CS/vim/vim使用技巧" },
           ],
         },

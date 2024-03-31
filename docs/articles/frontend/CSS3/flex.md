@@ -19,21 +19,21 @@ Flexible Box 模型，通常被称为 flexbox，是一种一维的布局模型�
 
 如果你选择了 `row` 或者 `row-reverse`，你的主轴将沿着 **inline** 方向延伸。
 
-![If flex-direction is set to row the main axis runs along the row in the inline direction.](../../../public/images/basics1.png)
+![If flex-direction is set to row the main axis runs along the row in the inline direction.](/images/basics1.png)
 
 选择 `column` 或者 `column-reverse` 时，你的主轴会沿着上下方向延伸 — 也就是 **block 排列的方向。**
 
-![If flex-direction is set to column the main axis runs in the block direction.](../../../public/images/basics2-1687184452992-5.png)
+![If flex-direction is set to column the main axis runs in the block direction.](/images/basics2-1687184452992-5.png)
 
 ### [交叉轴](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox#交叉轴)
 
 交叉轴垂直于主轴，所以如果你的`flex-direction` (主轴) 设成了 `row` 或者 `row-reverse` 的话，交叉轴的方向就是沿着列向下的。
 
-![If flex-direction is set to row then the cross axis runs in the block direction.](../../../public/images/basics3.png)
+![If flex-direction is set to row then the cross axis runs in the block direction.](/images/basics3.png)
 
 如果主轴方向设成了 `column` 或者 `column-reverse`，交叉轴就是水平方向。
 
-![If flex-direction is set to column then the cross axis runs in the inline direction.](../../../public/images/basics4.png)
+![If flex-direction is set to column then the cross axis runs in the inline direction.](/images/basics4.png)
 
 理解主轴和交叉轴的概念对于对齐 flexbox 里面的元素是很重要的；flexbox 的特性是沿着主轴或者交叉轴对齐之中的元素。
 
@@ -45,7 +45,7 @@ Flexible Box 模型，通常被称为 flexbox，是一种一维的布局模型�
 
 如果 `flex-direction` 是 `row` ，并且我是在书写英文，那么主轴的起始线是左边，终止线是右边。
 
-![Working in English the start edge is on the left.](../../../public/images/basics5.png)
+![Working in English the start edge is on the left.](/images/basics5.png)
 
 在这两种情况下，交叉轴的起始线是 flex 容器的顶部，终止线是底部，因为两种语言都是水平书写模式。
 
@@ -106,7 +106,7 @@ Flexible Box 模型，通常被称为 flexbox，是一种一维的布局模型�
 
 假设在 1 个 500px 的容器中，我们有 3 个 100px 宽的元素，那么这 3 个元素需要占 300px 的宽，剩下 200px 的可用空间。在默认情况下，flexbox 的行为会把这 200px 的空间留在最后一个元素的后面。
 
-![This flex container has available space after laying out the items.](../../../public/images/basics7.png)
+![This flex container has available space after laying out the items.](/images/basics7.png)
 
 如果期望这些元素能自动地扩展去填充满剩下的空间，那么我们需要去控制可用空间在这几个元素间如何分配，这就是元素上的那些 `flex` 属性要做的事。
 

@@ -46,7 +46,7 @@
 
 若干次Young GC后，有些对象在From与To之间来回游荡，一旦超出阈值，就将它们复制到老年代。如果老年代被用完，则执行Full GC。
 
-<img src="../../public/images/image-20230316213131707.png" alt="image-20230316213131707" style="zoom:50%;" />
+<img src="/images/image-20230316213131707.png" alt="image-20230316213131707" style="zoom:50%;" />
 
 ## 自适应
 
