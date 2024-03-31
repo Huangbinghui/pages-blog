@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.ClDkF6YQ.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"articles/Java/Spring/事务.md","filePath":"articles/Java/Spring/事务.md"}'),r={name:"articles/Java/Spring/事务.md"};function s(c,n,o,i,p,_){return t(),e("div")}const m=a(r,[["render",s]]);export{l as __pageData,m as default};
